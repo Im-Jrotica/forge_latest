@@ -1,9 +1,12 @@
 package com.jroticag.jmod;
 
 import com.jroticag.handler.ConfigurationHandler;
+import com.jroticag.init.ModItems;
 import com.jroticag.proxy.IProxy;
 import com.jroticag.reference.Ref;
+import com.jroticag.utility.LogHelper;
 
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -25,15 +28,19 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 	public void preInit(FMLPreInitializationEvent event){
 		
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+		LogHelper.info("Pre Initialization Complete!");
+		
+		ModItems.init();
 	}
 	
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
-		
+		LogHelper.info("Initialization Complete!");
 	}
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent  event){
-		
+		LogHelper.info("Post Initialzation Complete!");
 	}
 }
