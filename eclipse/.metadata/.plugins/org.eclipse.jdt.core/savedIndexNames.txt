@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+C:\Users\JroticaG\Desktop\forge_latest\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+2328269416.index
+1935584639.index
+3117646802.index

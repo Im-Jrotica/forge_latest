@@ -1,0 +1,10 @@
+package com.jroticag.item;
+
+import net.minecraft.item.Item;
+
+public class ItemJmod extends Item{
+	public ItemJmod(){
+		super();
+		
+	}
+}

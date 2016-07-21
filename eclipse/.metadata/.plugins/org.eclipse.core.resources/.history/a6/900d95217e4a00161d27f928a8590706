@@ -1,0 +1,16 @@
+[
+{
+  "modid": "jmod",
+  "name": "JroticaG's JMod",
+  "description": "Me just tinkering around ;).",
+  "version": "0.1.1",
+  "mcversion": "$1.10.2",
+  "url": "N/A",
+  "updateUrl": "N/A",
+  "authorList": ["JroticaG"],
+  "credits": "The powers of JroticaG himself.",
+  "logoFile": "C:\Users\JroticaG\Documents\-Projects-\-Youtube-\--JroticaGaming\--Editing\Random\Trollface",
+  "screenshots": [],
+  "dependencies": []
+}
+]

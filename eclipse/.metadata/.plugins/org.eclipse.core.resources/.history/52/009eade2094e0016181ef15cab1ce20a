@@ -1,0 +1,5 @@
+package com.jroticag.client.gui;
+
+public class GuiConfig extends GuiCon{
+
+}

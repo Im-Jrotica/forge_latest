@@ -1,0 +1,6 @@
+package com.jroticag.jmod.proxy;
+
+public abstract interface IProxy{
+
+
+}

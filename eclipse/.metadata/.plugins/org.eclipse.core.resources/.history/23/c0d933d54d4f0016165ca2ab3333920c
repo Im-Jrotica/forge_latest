@@ -1,0 +1,20 @@
+package com.jroticag.item;
+
+import com.jroticag.reference.Ref;
+
+import net.minecraft.item.Item;
+
+public class ItemJmod extends Item{
+	public ItemJmod(){
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName(){
+		return String.format("item.%s%s", Ref.MOD_ID.toLowerCase(), getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+	}
+	
+	protected String getUnwrappedUnlocalizedName(String unlocalizedName){
+		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+	}
+}

@@ -1,0 +1,6 @@
+package com.jroticag.Proxy;
+
+public abstract class InterfaceProxy{
+
+
+}

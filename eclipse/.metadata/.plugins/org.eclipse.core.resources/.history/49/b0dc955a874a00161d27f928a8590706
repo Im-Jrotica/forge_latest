@@ -1,0 +1,5 @@
+package com.jroticag.Proxy;
+
+public class ServerProxy extends InterfaceProxy{
+
+}
